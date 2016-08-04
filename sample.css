@@ -1,0 +1,64 @@
+body {
+    font-family: 'Roboto', serif;
+    background: url(band.jpg) no-repeat center center fixed;
+    background-size: cover;
+    width: 70%;
+    margin: 0 auto;
+}
+
+header h1 {
+     font-family: 'Oswald', sans-serif;
+     text-align: center;
+     color: SkyBlue;
+     font-size: 4em;
+     letter-spacing: 1em;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+	   list-style-type: none;
+}
+
+nav ul li {
+  box-sizing: border-box;
+	float: left;
+	width: 25%;
+	background-color: black;
+	color: rgba(255,255,255,0.8);
+	text-align: center;
+	line-height: 2em;
+	transition: all 0.5s;
+	margin-bottom: 1em;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgba(255,255,255,0.8);
+    display: block;
+    padding: 1em;
+}
+
+nav ul li a:hover {
+	color: black;
+	transition: all 0.5s;
+	background-color: LightPink;
+}
+
+
+
+img {
+    width: 100%;
+}
+
+section {
+    clear: both;
+    margin: 1em auto;
+    padding: 1%;
+    background: rgba(255,255,255,0.8);
+}
